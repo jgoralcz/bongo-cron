@@ -21,7 +21,7 @@ spec:
           imagePullPolicy: Always
           envFrom:
             - secretRef:
-                name: ${ENV}cron-basic-auth
+                name: ${PREFIX}cron-basic-auth
           resources:
             limits:
               cpu: ${CPU_LIMIT}

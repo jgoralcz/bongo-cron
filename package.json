@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
-  "author": "Joshua Goralczyk <joshgor01@gmail.com> (https://github.com/jgoralcz/aki-api)",
+  "author": "Joshua Goralczyk <joshgor01@gmail.com> (https://github.com/jgoralcz/bongo-cron)",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
