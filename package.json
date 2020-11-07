@@ -1,0 +1,17 @@
+{
+  "name": "bongo-cron",
+  "version": "1.0.0",
+  "description": "cron jobs that need immediate action (can't put in k8s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Joshua Goralczyk <joshgor01@gmail.com> (https://github.com/jgoralcz/aki-api)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "log4js": "^6.3.0",
+    "node-schedule": "^1.3.2"
+  }
+}
